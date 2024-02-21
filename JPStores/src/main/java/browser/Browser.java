@@ -1,3 +1,5 @@
+package browser;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -25,5 +27,7 @@ public class Browser {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return PageFactory.initElements(driver, HomePage.class);
     }
+
+
 }
 

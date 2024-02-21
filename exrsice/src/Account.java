@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Account {
+public interface Account {
+    public void AddInterest();
 }

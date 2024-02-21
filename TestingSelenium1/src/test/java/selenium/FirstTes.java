@@ -1,13 +1,16 @@
+package selenium;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
 
-public class FirstTest {
+public class FirstTes {
     WebDriver driver;
 
     @Test
@@ -26,7 +29,6 @@ public class FirstTest {
     }
     @Test
     public void windowHandle() {
-
         driver = new ChromeDriver();
         driver.get("https://www.selenium.dev/documentation/webdriver/interactions/windows/");
         driver.manage().window().maximize();
@@ -40,8 +42,19 @@ public class FirstTest {
         System.out.println("*****"+driver.getCurrentUrl());
         driver.switchTo().window(originalWindow);
         System.out.println("******"+driver.getCurrentUrl());
+
+
+
+
     }
-}
+
+
+
+
+
 
 }
+
+
+
 

@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class testnNG1 {
+public class testnNG1 {
+
 }

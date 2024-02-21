@@ -1,4 +1,3 @@
-package pages;
 import browser.Browser;
 import org.testng.annotations.Test;
 

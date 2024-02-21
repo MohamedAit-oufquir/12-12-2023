@@ -1,2 +1,4 @@
-package driver;public class ChromeOption {
+package driver;
+
+public class ChromeOption extends ChromeOptions {
 }
